@@ -1,0 +1,23 @@
+
+
+
+		库函数最后更新时间：07-15-2013
+
+		07-10-2013
+		configmanager.c 、xmlmanager.c 
+		修正了部分bug。原先只能读取有限长度的配置文件，最新的已对配置文件的大小不做任何限制,
+		且执行效率更高，代码更清晰。缺点：不支持多线程同时访问
+
+		07-10-2013
+		mystring.c 
+		修正了contains中的对包含字符串加1的bug
+
+		
+		07-15-2013
+		configmanager.c 、xmlmanager.c 
+		修正了getAttributtionItem默认返回值
+
+		
+		12-19-2013 base64源码重写
+
+
